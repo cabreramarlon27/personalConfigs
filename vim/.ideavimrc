@@ -15,7 +15,7 @@ set relativenumber
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 set noshowmode
-
+set showmode
 call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'maximbaz/lightline-ale'
@@ -42,6 +42,6 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
-
+set clipboard+=unnamed
 "colorscheme gruvbox
 "let g:gruvbox_contrast_dark = "hard"
