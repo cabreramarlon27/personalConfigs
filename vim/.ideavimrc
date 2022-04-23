@@ -35,13 +35,7 @@ let g:ctrlp_cmd = 'CtrlP'
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>w :w<CR>
-nnoremap <Leader>gs :CocSearch
 nnoremap <Leader>fs :Files<CR>
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
 set clipboard+=unnamed
 "colorscheme gruvbox
 "let g:gruvbox_contrast_dark = "hard"
