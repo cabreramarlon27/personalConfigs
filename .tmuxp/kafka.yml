@@ -1,0 +1,11 @@
+session_name: kafka 
+windows:
+- window_name: kafka window
+  layout: main-vertical
+  shell_command_before:
+    - cd ~/kafka                    # run as a first command in all panes
+  panes:
+    - shell_command:           # pane no. 1
+        - ls -al
+        - pwd
+    - echo second pane         # pane no. 2
