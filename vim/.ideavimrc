@@ -39,3 +39,6 @@ nnoremap <Leader>fs :Files<CR>
 set clipboard+=unnamed
 "colorscheme gruvbox
 "let g:gruvbox_contrast_dark = "hard"
+
+ inoremap jj <esc>
+
