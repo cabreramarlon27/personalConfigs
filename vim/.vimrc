@@ -41,6 +41,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'junegunn/fzf', {'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'zivyangll/git-blame.vim'
 call plug#end()
 
 :let mapleader=","
@@ -57,5 +58,6 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 inoremap jj <esc>
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
 " colorscheme gruvbox
 " let g:gruvbox_contrast_dark = "hard"
