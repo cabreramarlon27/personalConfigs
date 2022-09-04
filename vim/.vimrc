@@ -13,6 +13,8 @@ set colorcolumn=120
 set laststatus=2
 set relativenumber
 set clipboard=unnamedplus
+set hlsearch
+set wildmenu
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " Disable compatibility with vi which can cause unexpected issues.
