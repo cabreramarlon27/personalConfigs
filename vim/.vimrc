@@ -54,7 +54,8 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>gs :CocSearch
-nnoremap <Leader>fs :Files<CR>
+nnoremap <Leader>fs :GFiles<CR>
+nnoremap <Leader>b :Buffers<CR>
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
