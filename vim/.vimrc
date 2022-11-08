@@ -63,5 +63,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 inoremap jj <esc>
 nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
+nnoremap j jzz 
+nnoremap k kzz
 " colorscheme gruvbox
 " let g:gruvbox_contrast_dark = "hard"
